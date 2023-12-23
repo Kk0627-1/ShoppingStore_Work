@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>back-end</h1>
+    <% for ( let record of AuthorcontrollerSystem.orderRecord ) { %>
+        <h2><b>buyer id:</b> <%=record.buyer._id%></h2>
+        <h2><b>record id:</b><%=record.record._id%></h2>
+        <p><b>number:</b><%=record.record.number%></p>
+        <p><b>size:</b><%=record.record.size%></p>
+        <p><b>狀態:</b><%=record.record.status%></p>
+        <img  alt="" src="<%=record.record.commoditys.image%>">
+        <% if ( record.record.status === '未出貨' ) { %>
+        <form action="/shoppingstore/controller/<%=record._id%>/ConfirmSended">
+            <button>確認出貨</button>
+        </form>
+        <% } %>
+
+        <% if ( record.record.status === '未收到' ) { %>
+        <form action="/shoppingstore/controller/<%=record._id%>/ConfirmSended">
+            <button>再次出貨</button>
+        </form>
+        <% } %>
+        
+        <% if ( record.record.status === '確認收到' ) { %>
+        <form action="/shoppingstore/controller/<%=record._id%>/DeleteRecord">
+            <button>刪除紀錄</button>
+        </form>
+        <% } %>
+        
+
+    <% } %>
+</body>
+
+</html>
