@@ -72,7 +72,10 @@
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/dc0b53de-a964-4cf8-bc63-c93626c709ff)  
      狀態顯示未出貨  
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/da33a4f5-7ae1-4940-8634-0be477dfd636)  
+     由後臺控制出貨,後臺人員點擊確認出貨  
+     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/a90fe68c-e81a-4c03-80c0-8663bea9d3aa)  
      
+
 
 
 
