@@ -14,6 +14,6 @@
      2-1. 執行seeds資料夾裡的seed2.js  
      2-2. 執行seeds資料夾裡的index.js  
     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/1220dd7e-d693-4261-bcce-beccfed6b4c8)
-
+     (執行seed2.js會儲存預設的商品進入資料庫,執行index.js則是為了後台的設置)  
 
 三、 程式介紹  
