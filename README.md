@@ -60,7 +60,12 @@
      
   4. 登入功能:   
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/5ed5ca41-4bd9-4e4d-87ee-98ba8db011e7)  
+
+  5. 購買流程:  
+     選擇購買數量、型號,點擊Buy  
+     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/59dd1c84-1553-488c-b2be-6f1a27f5c5e1)  
      
+
 
 
 
