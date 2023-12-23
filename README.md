@@ -6,6 +6,7 @@
  1. 下載全部檔案  
  2. 下載npm  
      代碼: `npm i`  
-      
+      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/4d31d7fd-00f8-433e-a397-8ef35f21a089)
+
 二、 開始構建網站  
  1. 執行環境: Gitbash  
