@@ -17,3 +17,4 @@
      (執行seed2.js會儲存預設的商品進入資料庫,執行index.js則是為了後台的設置)  
 
 三、 程式介紹  
+  1. 資料庫名稱: `practice-shopping-store`  
