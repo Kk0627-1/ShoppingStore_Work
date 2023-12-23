@@ -46,7 +46,9 @@
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/7ea97672-cc9d-48a4-9184-07188fabb629)  
      顯示type為cloth商品  
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/59f1403f-f10a-4946-8fc0-725027d1deed)  
-     
+  3. 用戶註冊: 註冊買家帳戶  
+     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/06231b56-4d2d-4a51-95de-a2ee53908bad)
+
 
 
 
