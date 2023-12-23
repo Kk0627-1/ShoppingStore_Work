@@ -74,7 +74,19 @@
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/da33a4f5-7ae1-4940-8634-0be477dfd636)  
      由後臺控制出貨,後臺人員點擊確認出貨  
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/a90fe68c-e81a-4c03-80c0-8663bea9d3aa)  
+     點擊後,狀態會更新為已出貨  
+     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/ee35cce6-b04b-456a-aec6-d2927a863271)  
+     此時購買紀錄上狀態顯示已出貨,並確認是否收到貨物  
+     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/fa62e77c-eda5-49ee-be01-7b356562b910)  
+     點擊未收到貨物,後台會再次檢查並重新送出貨物  
+     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/655db6b4-63d5-48b2-a9dd-053bf4b32eec)  
+     點擊確認收到貨物則交易結束,後台可得知交易完成,並可以刪除交易紀錄  
+     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/6501644a-c886-4166-ae6a-0d28e72f2b36)  
      
+
+
+
+
 
 
 
