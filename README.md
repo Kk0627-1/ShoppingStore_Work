@@ -46,8 +46,12 @@
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/7ea97672-cc9d-48a4-9184-07188fabb629)  
      顯示type為cloth商品  
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/59f1403f-f10a-4946-8fc0-725027d1deed)  
-  3. 用戶註冊: 註冊買家帳戶  
-     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/4dca8f0c-a7c5-486c-a636-d9901da69d65)
+  3. 用戶註冊: 註冊買家帳戶,點擊主頁的register  
+     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/4dca8f0c-a7c5-486c-a636-d9901da69d65)  
+     輸入username、email、password註冊買家帳戶  
+     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/0217aedd-9df3-4af8-a51b-c2c25ed18313)  
+     
+
 
 
 
