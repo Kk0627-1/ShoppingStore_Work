@@ -19,3 +19,5 @@
 三、 程式介紹  
   1. 資料庫名稱: `practice-shopping-store`  
      `mongoose.connect('mongodb://127.0.0.1:27017/practice-shopping-store');`  
+  2. 模組models  
+     `Buyer.js` `commodity.js`  
