@@ -22,6 +22,7 @@
   2. 模組models  
      `Buyer.js` `commodity.js` `ControllerManagementSystem.js` `HotCommodity.js`  
      `OrderRecord.js` `PerchaseRecord.js` `Store.js` `User.js`  
+       
      User : 用來創建用戶的模組  
      Buyer : 負責儲存買家資料的模組  
      Store : 負責儲存商家資料的模組  
