@@ -82,7 +82,18 @@
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/655db6b4-63d5-48b2-a9dd-053bf4b32eec)  
      點擊確認收到貨物則交易結束,後台可得知交易完成,並可以刪除交易紀錄  
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/6501644a-c886-4166-ae6a-0d28e72f2b36)  
+  
+  6. 收藏功能  
+     點擊Love按鈕  
+     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/cd7763ff-2080-4c38-b6fe-50c41e70df49)  
+     點擊主頁的收藏  
+     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/42b2b1aa-04b6-40a8-afa9-ca7a1d0ab5d0)  
+     會進入到收藏裡  
+     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/91937620-1ed8-4a1d-a36d-fdaedab0a97d)  
      
+
+
+
 
 
 
