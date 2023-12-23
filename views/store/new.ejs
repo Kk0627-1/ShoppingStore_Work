@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Post New Commodity</h1>
+    <form action="/shoppingstore/store/<%=store._id%>/addCommodity" method="POST">
+        <h2>
+            <%=store.storename%>
+        </h2>
+        <div>
+            <label for="title">title</label>
+            <input type="text" id="title" name="title" required>
+        </div>
+        <div>
+            <label for="image">image</label>
+            <textarea name="image" id="image" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="price">price</label>
+            <input type="text" id="price" name="price" required>
+        </div>
+        <div>
+            <label for="type">type</label>
+            <input type="text" id="type" name="type" required>
+        </div>
+        <div>
+            <label for="description">description</label>
+            <textarea name="description" id="description" cols="30" rows="10"></textarea>
+        </div>
+        <button>New</button>
+    </form>
+
+
+
+</body>
+
+</html>
