@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>shop car</h1>
+    <a href="/shoppingstore/web">home</a>
+    <% for (let shopcar of shopcars){%>
+        <div>
+            <h3>購買產品  <%= shopcar.commoditys.title %></h3>
+            <img src="<%=shopcar.commoditys.image%>" alt="">
+            <h4>價格: <%= shopcar.commoditys.title %></h4>
+            <h4>類型: <%= shopcar.commoditys.type %></h4>
+            <p><%= shopcar.commoditys.description %></p>
+            <p>訂單數: <%= shopcar.number %>, 型號: <%= shopcar.size %></p>
+            <form action="/shoppingstore/<%=shopcar._id%>/addToPerchaseRecord" method="POST">
+                <button>確認購買</button>
+            </form>
+            <form action="/shoppingstore/<%=shopcar._id%>/RemoveToShopcar" method="POST">
+                <button>Delete</button>
+            </form>
+        </div>
+    <% } %>
+   
+</body>
+
+</html>

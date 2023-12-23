@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>show</h1>
+    <h2>
+        store: <%=store.storename%>
+    </h2>
+    <h2>
+        title: <%=commodity.title%>
+    </h2>
+    <h2>
+        price: <%=commodity.price%>
+    </h2>
+    <h2>
+        description: <%=commodity.description%>
+    </h2>
+    <h2>
+        type: <%=commodity.type%>
+    </h2>
+    <h2>image:</h2>
+    <img src="<%=commodity.image%>" alt="">
+    <form action="/shoppingstore/<%=commodity._id%>/addToshopcar" method="POST">
+        <div>
+            <label for="num">數量</label>
+            <input type="number" id="num" name="num" min="1" required />
+            <% if ( commodity.type === 'shoes' || commodity.type === 'cloth') { %>
+            <input type="radio" id="XL_Size" name="size" value="XL" required >
+            <label for="XL_Size">XL</label>
+            <input type="radio" id="L_Size" name="size" value="L" required>
+            <label for="L_Size">L</label>
+            <input type="radio" id="M_Size" name="size" value="M" required>
+            <label for="M_Size">M</label>
+            <input type="radio" id="S_Size" name="size" value="S" required>
+            <label for="S_Size">S</label>                
+            <% } %>
+        </div>
+        <button>Buy</button>
+    </form>
+    <form action="/shoppingstore/<%=commodity._id%>/addToLovelist" method="POST">
+        <button>Love</button>
+    </form>
+    <a href="/shoppingstore/<%=commodity.type%>">Back</a>
+
+</body>
+
+</html>
