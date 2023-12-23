@@ -66,7 +66,16 @@
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/59dd1c84-1553-488c-b2be-6f1a27f5c5e1)  
      點擊主頁的購物車  
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/bc30723a-8e42-438f-bc4f-f616c345302b)  
+     點擊確認購買  
+     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/bf9e3434-f1b0-4393-8389-42588910d9b5)  
+     資料會進入主頁的購買紀錄  
+     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/dc0b53de-a964-4cf8-bc63-c93626c709ff)  
+     狀態顯示未出貨  
+     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/da33a4f5-7ae1-4940-8634-0be477dfd636)  
      
+
+
+
 
 
 
