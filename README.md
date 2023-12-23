@@ -64,7 +64,10 @@
   5. 購買流程:  
      選擇購買數量、型號,點擊Buy  
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/59dd1c84-1553-488c-b2be-6f1a27f5c5e1)  
+     點擊主頁的購物車  
+     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/bc30723a-8e42-438f-bc4f-f616c345302b)  
      
+
 
 
 
