@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/app.css">
+</head>
+
+<body>
+    <div id="header-div">
+        <h1 id="header"><a href="/shoppingstore/web">Shopping ~~ Mall ~~</a></h1>
+    </div>
+
+    <% for (let commodity of commoditys){%>
+        <img  alt="" src="<%=commodity.image%>">
+        <div>
+            <h5><%= commodity.title %></h5>
+            <p><%= commodity.description %></p>
+            <a href="/shoppingstore/<%=commodity._id%>">Go!</a>
+        </div>
+    <% } %>
+
+</body>
+
+</html>
