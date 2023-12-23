@@ -23,5 +23,11 @@
      `Buyer.js` `commodity.js` `ControllerManagementSystem.js` `HotCommodity.js`  
      `OrderRecord.js` `PerchaseRecord.js` `Store.js` `User.js`  
      User : 用來創建用戶的模組  
-      
+     Buyer : 負責儲存買家資料的模組  
+     Store : 負責儲存商家資料的模組  
+     commodity : 負責儲存商品資料的模組  
+     PerchaseRecord : 負責將儲存購物紀錄的模組  
+     ControllerManagementSystem : 負責儲存後臺資料的模組  
+     OrderRecord : 負責儲存購物紀錄、買家資料的模組  
+     HotCommodity : 負責儲存商品及其熱門程度的資料的模組  
      
