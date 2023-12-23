@@ -12,5 +12,6 @@
  1. 執行環境: `Gitbash` ,用`Node`執行js檔案,資料庫使用`mongoDB`      
  2. 執行seeds資料夾的檔案  
      2-1. 執行seeds資料夾裡的seed2.js  
+     2-2. 執行seeds資料夾裡的index.js
 
 三、 程式介紹  
