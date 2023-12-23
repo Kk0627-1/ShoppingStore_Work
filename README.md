@@ -12,9 +12,11 @@
  1. 執行環境: `Gitbash` ,用`Node`執行js檔案,資料庫使用`mongoDB`      
  2. 執行seeds資料夾的檔案  
      2-1. 執行seeds資料夾裡的seed2.js  
-     2-2. 執行seeds資料夾裡的index.js  
+     2-2. 執行seeds資料夾裡的index.js    
+     2-3. 執行seeds資料夾裡的store.js  
     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/1220dd7e-d693-4261-bcce-beccfed6b4c8)  
-     (執行seed2.js會儲存預設的商品進入資料庫,執行index.js則是為了後台的設置)  
+    ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/01a0b8ab-ea16-499a-a29e-fef7fe607e95)  
+     (執行seed2.js會儲存預設的商品進入資料庫,執行index.js則是為了後台的設置,執行store.js會儲存預設的商店)    
 
 三、 程式介紹  
   1. 資料庫名稱: `practice-shopping-store`  
