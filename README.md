@@ -44,6 +44,7 @@
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/29b8ae0e-6f7f-4f3a-9727-df33d10588ac)  
   2. 搜尋功能:(ex:搜尋cloth)  
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/7ea97672-cc9d-48a4-9184-07188fabb629)  
+     顯示type為cloth商品  
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/59f1403f-f10a-4946-8fc0-725027d1deed)  
      
 
