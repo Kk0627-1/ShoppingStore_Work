@@ -49,8 +49,8 @@
   3. 用戶註冊: 註冊買家帳戶,點擊主頁的register  
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/4dca8f0c-a7c5-486c-a636-d9901da69d65)  
      輸入username、email、password註冊買家帳戶  
-     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/0217aedd-9df3-4af8-a51b-c2c25ed18313)  
-  4. 登入功能:  
+     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/4ffc1871-fb32-4f70-8d5a-7911363ddaca)  
+  4. 登入功能:   
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/5ed5ca41-4bd9-4e4d-87ee-98ba8db011e7)  
      
 
