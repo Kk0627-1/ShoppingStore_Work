@@ -16,17 +16,17 @@ db.once("open", () => {
 const storename = async () => {
     const commoditys = await Commodity.find({});
     //console.log(commoditys[0])
-    const store = await Store.find({ storename: 'uu_store' });
-    //console.log(store);
+    const store = new Store({ storename: 'uu_store' });
+    store.save();
 
     let item = new Commodity({});
     for (let commodity of commoditys) {
         item = await Commodity.findById(commodity._id);
-        item.store = store[0];
+        item.store = store;
         await item.save();
     }
 
-
+    console.log(commoditys);
 }
 
 storename().then(() => {
