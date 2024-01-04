@@ -11,7 +11,7 @@
      代碼: `npm i`  
       ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/4d31d7fd-00f8-433e-a397-8ef35f21a089)
 
-### AAA
+### 一、應用
 二、 開始構建網站  
  1. 執行環境: `Gitbash` ,用`Node`執行js檔案,資料庫使用`mongoDB`      
  2. 執行seeds資料夾的檔案  
