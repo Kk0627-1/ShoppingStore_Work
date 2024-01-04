@@ -2,10 +2,10 @@
 
 ## 此程式主要為javascript構建之作品,使用此專案能夠建一個屬於你的拍賣網站
 
-###  環境
-#### 1. 執行環境 : GitBash 
-##### 1.1. 以Node.js執行javascript檔案
-##### 1.2.  資料庫使用MongoD
+###  環境  
+#### 1. 執行環境 : GitBash   
+#####    1.1. 以Node.js執行javascript檔案  
+#####    1.2.  資料庫使用MongoD  
 
 
 一、 前置動作  
