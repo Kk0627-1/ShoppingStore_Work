@@ -23,6 +23,12 @@
  
 
 ### 二、使用技術  
+  1. npm  (模組)  
+     1.1 Express : 創造網頁構建之npm  
+     1.2.  Ejs-mate: 使用之動態網站之npm  
+     1.3.  Mongoose: 連接MongoDB資料庫之npm  
+     1.4.  Passport: 完成登入之功能之npm  
+  
   1. 資料庫名稱: `practice-shopping-store`  
      `mongoose.connect('mongodb://127.0.0.1:27017/practice-shopping-store');`  
   2. 模組models  
