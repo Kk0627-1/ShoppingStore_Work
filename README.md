@@ -27,8 +27,84 @@
      1.1 Express : 創造網頁構建之npm  
      1.2.  Ejs-mate: 使用之動態網站之npm  
      1.3.  Mongoose: 連接MongoDB資料庫之npm  
-     1.4.  Passport: 完成登入之功能之npm  
-  
+     1.4.  Passport: 完成登入之功能之npm
+  2. DB  (資料庫)  
+     2.1. MongoDB
+  3. Html (網站)
+     3.1. Ejs
+  4. Bootstrap
+     4.1. version
+     4.2. css
+  5. Node.js
+     5.1  伺服器
+  ### 三、專案說明  
+   1. 專案:  
+      此專案為構建購物網站之專案,能完成一般購物網站  
+      之功能,在GitBash環境執行,以Node.js驅動js檔案,並  
+      配合MongoDB的資料庫對數據進行控制,動態Html選  
+      則使用Ejs進行動態網站  
+
+   2. 檔案說明:
+      seeds資料夾: 完成前置條件,及輸入預設數據置資料庫  
+           (以下為seeds資料夾內的檔案,依序為執行順序)  
+           index.js: 執行後台前置條件,以ControllerManagementSystem  
+                     模板創建控制後台的控制變數controllerSystem,(此變數為控制  
+                     後台資料之變數)  
+           seed.js: 將預設好的商品存入資料庫,使資料庫存在商品資料  
+           store.js: 將商品定為預設商店之商品  
+     app.js : 啟動網站之檔案,執行app.js網頁即位在localhost:2500打開,  
+              可用瀏覽器執行,會根據網址執行Route資料夾裡的不同檔案  
+     models資料夾: 裡面放置DataBase數據的各模版資料  
+           User.js : 用來創建用戶的模組  
+           Buyer.js : 負責儲存買家資料的模組  
+           Store.js : 負責儲存商家資料的模組  
+           commodity.js : 負責儲存商品資料的模組  
+           PerchaseRecord.js : 負責將儲存購物紀錄的模組  
+           ControllerManagementSystem.js : 負責儲存後臺資料的模組  
+           OrderRecord.js : 負責儲存購物紀錄、買家資料的模組  
+           HotCommodity.js : 負責儲存商品及其熱門程度的資料的模組  
+     routes資料夾: 裡面存放不同網址(線路)執行之檔案  
+           ShoppingmallManagementSystem.js:   
+           網址前置為此的,進入此線路  
+           `'/shoppingstore/controller'`  
+           負責後台運作,由後台人員確認並以此負責訂單狀況  
+           store.js:   
+           網址前置為此的,進入此線路  
+           `'/shoppingstore/store'`  
+負責進行前端的商城內的商店相關資料進行控制,創建賣家帳號、上架下架商店商品
+及登入商店帳號都是此線路負責
+shopping-store.js:
+網址前置為此的,進入此線路
+'/shoppingstore'
+負責進行前端的商城主要功能,商城首頁、搜尋功能、我的最愛、購物車、商品購買
+、購買紀錄都是在這個線路達成
+users.js:
+網址前置為此的,進入此線路
+'/'
+負責進行使用者(買家)登入、註冊、登出之功能,為使用者功能之路線
+views: 放置動態html(ejs檔案),此專案所使用的html皆在這檔案
+(以下為views資料夾內的檔案)
+shopping-store資料夾: 放置前端商城的大部分html
+web.ejs: 商城首頁的html
+
+index.ejs: 商城搜尋後顯示商品頁面的html
+
+show.ejs: 點及商品後,顯示商品頁面的html,能進行商品購買、收藏
+
+shopcar.ejs: 負責顯示購物車頁面之html,並可進行確認購買或移除購物車
+
+purchaseRecordlist.ejs: 負責查看購物紀錄頁面之html,能檢查商品狀況
+狀況: 未出貨
+
+狀況: 已出貨
+
+lovelist.ejs: 顯示我的最愛頁面之html,GO能進入商品資訊,DELETE能從我的最愛刪除
+
+layout資料夾: 放置負責進行整體布置的html
+boilerplate.ejs: 
+boilerplate2.ejs: 
+boilerplate3.ejs: 
+
   1. 資料庫名稱: `practice-shopping-store`  
      `mongoose.connect('mongodb://127.0.0.1:27017/practice-shopping-store');`  
   2. 模組models  
