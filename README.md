@@ -4,7 +4,7 @@
 
 ###  環境  
 #### 1. 執行環境 : GitBash   
-         1.1.  以Node.js執行javascript檔案   
+         1.1.  以Node.js執行javascript檔案    
 #####    1.2.  資料庫使用MongoD  
 
 
