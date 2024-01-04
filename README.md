@@ -70,26 +70,17 @@
         * ShoppingmallManagementSystem.js:  
          &ensp;&ensp;&ensp;&ensp;網址前置為`'/shoppingstore/controller'`,進入此線路  
          &ensp;&ensp;&ensp;&ensp;負責後台運作,由後台人員確認並以此負責訂單狀況  
-           
+             
         * store.js:  
-        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;網址前置為`'/shoppingstore/store'`,進入此線路  
-       
-      
-      &ensp;&ensp;&ensp;&ensp;ShoppingmallManagementSystem.js:   
-      &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;網址前置為`'/shoppingstore/controller'`,進入此線路  
-      &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;負責後台運作,由後台人員確認並以此負責訂單狀況  
-      
-      &ensp;&ensp;&ensp;&ensp;store.js:   
-      &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;網址前置為`'/shoppingstore/store'`,進入此線路  
-
-      
-負責進行前端的商城內的商店相關資料進行控制,創建賣家帳號、上架下架商店商品
-及登入商店帳號都是此線路負責
-shopping-store.js:
-網址前置為此的,進入此線路
-'/shoppingstore'
-負責進行前端的商城主要功能,商城首頁、搜尋功能、我的最愛、購物車、商品購買
-、購買紀錄都是在這個線路達成
+        &ensp;&ensp;&ensp;&ensp;網址前置為`'/shoppingstore/store'`,進入此線路     
+        &ensp;&ensp;&ensp;&ensp;負責進行前端的商城內的商店相關資料進行控制,創建賣家帳號、上架下架商店商品  
+        &ensp;&ensp;&ensp;&ensp;及登入商店帳號都是此線路負責  
+  
+        * shopping-store.js:  
+        &ensp;&ensp;&ensp;&ensp;網址前置為此的,進入此線路  
+        &ensp;&ensp;&ensp;&ensp;'/shoppingstore'  
+        &ensp;&ensp;&ensp;&ensp;負責進行前端的商城主要功能,商城首頁、搜尋功能、我的最愛、購物車、商品購買  
+        &ensp;&ensp;&ensp;&ensp;、購買紀錄都是在這個線路達成  
 users.js:
 網址前置為此的,進入此線路
 '/'
