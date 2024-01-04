@@ -4,8 +4,8 @@
 
 ###  環境   
 1. 執行環境 : GitBash   
- &ensp;&ensp;&ensp;&ensp;1.1.  以Node.js執行javascript檔案  
- 1.2.  資料庫使用MongoDB  
+ &ensp;&ensp;1.1.  以Node.js執行javascript檔案  
+ &ensp;&ensp;1.2.  資料庫使用MongoDB  
        
 2. npm model模組  
      代碼: `npm i`  
@@ -13,10 +13,10 @@
 
 ### 一、應用
 1. 網站功用:  
-    1.1. 建置能實際執行的購物網站,並具備確實可實行性  
-    1.2.  網站外貌與網路上可見網站並無過大差距  
-    1.3.  實際具有登入、註冊,能記錄用戶資訊並確切使用此數據的功能  
-    1.4.  在拍賣網站之數據(訂單、銷售紀錄)有後台之紀錄、操控  
+    &ensp;&ensp;1.1. 建置能實際執行的購物網站,並具備確實可實行性  
+    &ensp;&ensp;1.2.  網站外貌與網路上可見網站並無過大差距  
+    &ensp;&ensp;1.3.  實際具有登入、註冊,能記錄用戶資訊並確切使用此數據的功能  
+    &ensp;&ensp;1.4.  在拍賣網站之數據(訂單、銷售紀錄)有後台之紀錄、操控  
   
  2. 功能列表        
  3. 後端說明    
@@ -24,10 +24,10 @@
 
 ### 二、使用技術  
   1. npm  (模組)  
-     1.1 Express : 創造網頁構建之npm  
-     1.2.  Ejs-mate: 使用之動態網站之npm  
-     1.3.  Mongoose: 連接MongoDB資料庫之npm  
-     1.4.  Passport: 完成登入之功能之npm
+     &ensp;&ensp;1.1 Express : 創造網頁構建之npm  
+     &ensp;&ensp;1.2.  Ejs-mate: 使用之動態網站之npm  
+     &ensp;&ensp;1.3.  Mongoose: 連接MongoDB資料庫之npm  
+     &ensp;&ensp;1.4.  Passport: 完成登入之功能之npm
   2. DB  (資料庫)  
      2.1. MongoDB
   3. Html (網站)
