@@ -46,7 +46,7 @@
 
    2. 檔案說明:  
       seeds資料夾: 完成前置條件,及輸入預設數據置資料庫    
-           (以下為seeds資料夾內的檔案,依序為執行順序)    
+      (以下為seeds資料夾內的檔案,依序為執行順序)  
            index.js: 執行後台前置條件,以ControllerManagementSystem    
                      模板創建控制後台的控制變數controllerSystem,(此變數為控制    
                      後台資料之變數)    
