@@ -29,14 +29,14 @@
      &ensp;&ensp;1.3.  Mongoose: 連接MongoDB資料庫之npm  
      &ensp;&ensp;1.4.  Passport: 完成登入之功能之npm
   2. DB  (資料庫)  
-     &ensp;&ensp;2.1. MongoDB
-  3. Html (網站)
-     &ensp;&ensp;3.1. Ejs
-  4. Bootstrap
-     &ensp;&ensp;4.1. version
-     &ensp;&ensp;4.2. css
-  5. Node.js
-     &ensp;&ensp;5.1  伺服器
+     &ensp;&ensp;2.1. MongoDB  
+  3. Html (網站)  
+     &ensp;&ensp;3.1. Ejs  
+  4. Bootstrap  
+     &ensp;&ensp;4.1. version  
+     &ensp;&ensp;4.2. css  
+  5. Node.js  
+     &ensp;&ensp;5.1  伺服器  
   ### 三、專案說明  
    1. 專案:  
       &ensp;&ensp;&ensp;&ensp;此專案為構建購物網站之專案,能完成一般購物網站  
