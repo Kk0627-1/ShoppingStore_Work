@@ -44,7 +44,7 @@
       配合MongoDB的資料庫對數據進行控制,動態Html選  
       則使用Ejs進行動態網站  
 
-   2. 檔案說明:
+   2. 檔案說明:  
       seeds資料夾: 完成前置條件,及輸入預設數據置資料庫  
            (以下為seeds資料夾內的檔案,依序為執行順序)  
            index.js: 執行後台前置條件,以ControllerManagementSystem  
