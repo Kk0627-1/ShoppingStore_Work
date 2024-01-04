@@ -73,6 +73,7 @@
         &ensp;&ensp;&ensp;&ensp;網址前置為`'/shoppingstore/controller'`,進入此線路<br>  
         &ensp;&ensp;&ensp;&ensp;負責後台運作,由後台人員確認並以此負責訂單狀況<br>  
        </li>
+       &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;網址前置為`'/shoppingstore/controller'`,進入此線路<br>  
        <li>
         &ensp;&ensp;&ensp;&ensp;store.js:   
         &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;網址前置為`'/shoppingstore/store'`,進入此線路  
