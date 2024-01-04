@@ -39,10 +39,10 @@
      5.1  伺服器
   ### 三、專案說明  
    1. 專案:  
-      此專案為構建購物網站之專案,能完成一般購物網站  
-      之功能,在GitBash環境執行,以Node.js驅動js檔案,並  
-      配合MongoDB的資料庫對數據進行控制,動態Html選  
-      則使用Ejs進行動態網站  
+      &ensp;&ensp;&ensp;&ensp;此專案為構建購物網站之專案,能完成一般購物網站  
+      &ensp;&ensp;&ensp;&ensp;之功能,在GitBash環境執行,以Node.js驅動js檔案,並  
+      &ensp;&ensp;&ensp;&ensp;配合MongoDB的資料庫對數據進行控制,動態Html選  
+      &ensp;&ensp;&ensp;&ensp;則使用Ejs進行動態網站  
 
    2. 檔案說明:  
       seeds資料夾: 完成前置條件,及輸入預設數據置資料庫    
