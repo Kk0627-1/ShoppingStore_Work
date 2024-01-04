@@ -51,9 +51,11 @@
                      模板創建控制後台的控制變數controllerSystem,(此變數為控制  
                      後台資料之變數)  
            seed.js: 將預設好的商品存入資料庫,使資料庫存在商品資料  
-           store.js: 將商品定為預設商店之商品  
+           store.js: 將商品定為預設商店之商品
+      
      app.js : 啟動網站之檔案,執行app.js網頁即位在localhost:2500打開,  
               可用瀏覽器執行,會根據網址執行Route資料夾裡的不同檔案  
+              
      models資料夾: 裡面放置DataBase數據的各模版資料  
            User.js : 用來創建用戶的模組  
            Buyer.js : 負責儲存買家資料的模組  
@@ -63,6 +65,7 @@
            ControllerManagementSystem.js : 負責儲存後臺資料的模組  
            OrderRecord.js : 負責儲存購物紀錄、買家資料的模組  
            HotCommodity.js : 負責儲存商品及其熱門程度的資料的模組  
+           
      routes資料夾: 裡面存放不同網址(線路)執行之檔案  
            ShoppingmallManagementSystem.js:   
            網址前置為此的,進入此線路  
