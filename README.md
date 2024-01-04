@@ -46,12 +46,12 @@
 
    2. 檔案說明:  
       seeds資料夾: 完成前置條件,及輸入預設數據置資料庫    
-      (以下為seeds資料夾內的檔案,依序為執行順序)  
+      &ensp;&ensp;&ensp;&ensp;(以下為seeds資料夾內的檔案,依序為執行順序)  
       &ensp;&ensp;&ensp;&ensp;index.js: 執行後台前置條件,以ControllerManagementSystem    
-                     模板創建控制後台的控制變數controllerSystem,(此變數為控制    
-                     後台資料之變數)    
-           seed.js: 將預設好的商品存入資料庫,使資料庫存在商品資料    
-           store.js: 將商品定為預設商店之商品  
+                     &ensp;&ensp;&ensp;&ensp;模板創建控制後台的控制變數controllerSystem,(此變數為控制    
+                     &ensp;&ensp;&ensp;&ensp;後台資料之變數)    
+           &ensp;&ensp;&ensp;&ensp;seed.js: 將預設好的商品存入資料庫,使資料庫存在商品資料    
+           &ensp;&ensp;&ensp;&ensp;store.js: 將商品定為預設商店之商品  
         
       app.js : 啟動網站之檔案,執行app.js網頁即位在localhost:2500打開,  
               可用瀏覽器執行,會根據網址執行Route資料夾裡的不同檔案  
