@@ -69,7 +69,7 @@
       routes資料夾: 裡面存放不同網址(線路)執行之檔案
       <ul>
        <li>
-        &ensp;&ensp;&ensp;&ensp;ShoppingmallManagementSystem.js:<br>
+        &ensp;&ensp;ShoppingmallManagementSystem.js:<br>
         &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;網址前置為`'/shoppingstore/controller'`,進入此線路<br>  
         &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;負責後台運作,由後台人員確認並以此負責訂單狀況<br>  
        </li>
