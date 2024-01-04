@@ -45,7 +45,7 @@
       &ensp;&ensp;&ensp;&ensp;則使用Ejs進行動態網站  
 
    2. 檔案說明:  
-      seeds資料夾: 完成前置條件,及輸入預設數據置資料庫    
+      * seeds資料夾: 完成前置條件,及輸入預設數據置資料庫    
       &ensp;&ensp;&ensp;&ensp;(以下為seeds資料夾內的檔案,依序為執行順序)  
       &ensp;&ensp;&ensp;&ensp;index.js: 執行後台前置條件,以ControllerManagementSystem    
                      &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;模板創建控制後台的控制變數controllerSystem,(此變數為控制    
@@ -53,10 +53,10 @@
            &ensp;&ensp;&ensp;&ensp;seed.js: 將預設好的商品存入資料庫,使資料庫存在商品資料    
            &ensp;&ensp;&ensp;&ensp;store.js: 將商品定為預設商店之商品  
         
-      app.js : 啟動網站之檔案,執行app.js網頁即位在localhost:2500打開,  
+      * app.js : 啟動網站之檔案,執行app.js網頁即位在localhost:2500打開,  
               可用瀏覽器執行,會根據網址執行Route資料夾裡的不同檔案  
               
-      models資料夾: 裡面放置DataBase數據的各模版資料  
+      * models資料夾: 裡面放置DataBase數據的各模版資料  
       &ensp;&ensp;&ensp;&ensp;User.js : 用來創建用戶的模組  
       &ensp;&ensp;&ensp;&ensp;Buyer.js : 負責儲存買家資料的模組  
       &ensp;&ensp;&ensp;&ensp;Store.js : 負責儲存商家資料的模組  
@@ -66,7 +66,7 @@
       &ensp;&ensp;&ensp;&ensp;OrderRecord.js : 負責儲存購物紀錄、買家資料的模組  
       &ensp;&ensp;&ensp;&ensp;HotCommodity.js : 負責儲存商品及其熱門程度的資料的模組  
            
-      routes資料夾: 裡面存放不同網址(線路)執行之檔案
+      * routes資料夾: 裡面存放不同網址(線路)執行之檔案
       * ShoppingmallManagementSystem.js:  
          &ensp;&ensp;&ensp;&ensp;網址前置為`'/shoppingstore/controller'`,進入此線路  
          &ensp;&ensp;&ensp;&ensp;負責後台運作,由後台人員確認並以此負責訂單狀況  
