@@ -18,16 +18,11 @@
     1.3.  實際具有登入、註冊,能記錄用戶資訊並確切使用此數據的功能  
     1.4.  在拍賣網站之數據(訂單、銷售紀錄)有後台之紀錄、操控  
   
- 1. 執行環境: `Gitbash` ,用`Node`執行js檔案,資料庫使用`mongoDB`      
- 2. 執行seeds資料夾的檔案  
-     2-1. 執行seeds資料夾裡的seed2.js  
-     2-2. 執行seeds資料夾裡的index.js    
-     2-3. 執行seeds資料夾裡的store.js  
-    ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/1220dd7e-d693-4261-bcce-beccfed6b4c8)  
-    ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/01a0b8ab-ea16-499a-a29e-fef7fe607e95)  
-     (執行seed2.js會儲存預設的商品進入資料庫,執行index.js則是為了後台的設置,執行store.js會儲存預設的商店)    
+ 2. 功能列表        
+ 3. 後端說明    
+ 
 
-三、 程式介紹  
+### 二、使用技術  
   1. 資料庫名稱: `practice-shopping-store`  
      `mongoose.connect('mongodb://127.0.0.1:27017/practice-shopping-store');`  
   2. 模組models  
