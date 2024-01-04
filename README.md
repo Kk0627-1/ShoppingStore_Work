@@ -3,8 +3,8 @@
 ## 此程式主要為javascript構建之作品,使用此專案能夠建一個屬於你的拍賣網站
 
 ###  環境  
-一、 執行環境 : GitBash   
- 1. 下載全部檔案  
+1. 執行環境 : GitBash   
+ 1.1.  以Node.js執行javascript檔案  
  2. 下載npm model模組  
      代碼: `npm i`  
       ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/4d31d7fd-00f8-433e-a397-8ef35f21a089)
