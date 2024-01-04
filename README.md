@@ -56,17 +56,17 @@
       app.js : 啟動網站之檔案,執行app.js網頁即位在localhost:2500打開,  
               可用瀏覽器執行,會根據網址執行Route資料夾裡的不同檔案  
               
-     models資料夾: 裡面放置DataBase數據的各模版資料  
-           User.js : 用來創建用戶的模組  
-           Buyer.js : 負責儲存買家資料的模組  
-           Store.js : 負責儲存商家資料的模組  
-           commodity.js : 負責儲存商品資料的模組  
-           PerchaseRecord.js : 負責將儲存購物紀錄的模組  
-           ControllerManagementSystem.js : 負責儲存後臺資料的模組  
-           OrderRecord.js : 負責儲存購物紀錄、買家資料的模組  
-           HotCommodity.js : 負責儲存商品及其熱門程度的資料的模組  
+      models資料夾: 裡面放置DataBase數據的各模版資料  
+      &ensp;&ensp;&ensp;&ensp;User.js : 用來創建用戶的模組  
+      &ensp;&ensp;&ensp;&ensp;Buyer.js : 負責儲存買家資料的模組  
+      &ensp;&ensp;&ensp;&ensp;Store.js : 負責儲存商家資料的模組  
+      &ensp;&ensp;&ensp;&ensp;commodity.js : 負責儲存商品資料的模組  
+      &ensp;&ensp;&ensp;&ensp;PerchaseRecord.js : 負責將儲存購物紀錄的模組  
+      &ensp;&ensp;&ensp;&ensp;ControllerManagementSystem.js : 負責儲存後臺資料的模組  
+      &ensp;&ensp;&ensp;&ensp;OrderRecord.js : 負責儲存購物紀錄、買家資料的模組  
+      &ensp;&ensp;&ensp;&ensp;HotCommodity.js : 負責儲存商品及其熱門程度的資料的模組  
            
-     routes資料夾: 裡面存放不同網址(線路)執行之檔案  
+      routes資料夾: 裡面存放不同網址(線路)執行之檔案  
            ShoppingmallManagementSystem.js:   
            網址前置為此的,進入此線路  
            `'/shoppingstore/controller'`  
