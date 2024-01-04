@@ -4,10 +4,9 @@
 
 ###  環境  
 #### 1. 執行環境 : GitBash   
-         1.1.  以Node.js執行javascript檔案    
 
 
-
+1.1  
 一、 前置動作  
  1. 下載全部檔案  
  2. 下載npm model模組  
