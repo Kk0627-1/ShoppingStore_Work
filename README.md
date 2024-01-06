@@ -83,13 +83,14 @@
         &ensp;&ensp;&ensp;&ensp;、購買紀錄都是在這個線路達成  
 
         * users.js:
-        &ensp;&ensp;&ensp;&ensp;網址前置為此的,進入此線路
-        &ensp;&ensp;&ensp;&ensp;`'/'`
-        &ensp;&ensp;&ensp;&ensp;負責進行使用者(買家)登入、註冊、登出之功能,為使用者功能之路線
-views: 放置動態html(ejs檔案),此專案所使用的html皆在這檔案
-(以下為views資料夾內的檔案)
-shopping-store資料夾: 放置前端商城的大部分html
-web.ejs: 商城首頁的html
+        &ensp;&ensp;&ensp;&ensp;網址前置為此的,進入此線路  
+        &ensp;&ensp;&ensp;&ensp;`'/'`  
+        &ensp;&ensp;&ensp;&ensp;負責進行使用者(買家)登入、註冊、登出之功能,為使用者功能之路線  
+
+      * views: 放置動態html(ejs檔案),此專案所使用的html皆在這檔案
+      &ensp;&ensp;&ensp;&ensp;(以下為views資料夾內的檔案)
+        * shopping-store資料夾: 放置前端商城的大部分html
+          * web.ejs: 商城首頁的html
 
 index.ejs: 商城搜尋後顯示商品頁面的html
 
