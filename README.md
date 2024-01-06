@@ -94,6 +94,7 @@
             ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/aa0761f0-3552-4752-90ae-4a8bbdd1bf91)
 
           * index.ejs: 商城搜尋後顯示商品頁面的html
+            ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/0a8040c0-10c8-4ecd-9020-0796c1d91d92)
 
           * show.ejs: 點及商品後,顯示商品頁面的html,能進行商品購買、收藏
 
