@@ -102,9 +102,10 @@
           * shopcar.ejs: 負責顯示購物車頁面之html,並可進行確認購買或移除購物車
             ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/cd6f4ece-bd9b-4c1e-ae05-f0c4bfe9b408)
 
-          * purchaseRecordlist.ejs: 負責查看購物紀錄頁面之html,能檢查商品狀況
+          * purchaseRecordlist.ejs: 負責查看購物紀錄頁面之html,能檢查商品狀況  
             &ensp;&ensp;&ensp;&ensp;狀況: 未出貨  
-  
+            ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/e468dcbb-8dcf-4f41-bbc5-8cbc89c4e55f)  
+
             &ensp;&ensp;&ensp;&ensp;狀況: 已出貨  
   
           * lovelist.ejs: 顯示我的最愛頁面之html,GO能進入商品資訊,DELETE能從我的最愛刪除
