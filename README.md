@@ -139,7 +139,10 @@
 
      
    ### 影片說明  
-   [![IMAGE ALT TEXT](https://drive.google.com/file/d/1HOrRQ6LR_PXrfMDefxVPD6dXqD6a8z7_/view?usp=sharing)
+   ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/16bce3f8-3334-4454-b195-0f2d3b41c19e)
+   (https://drive.google.com/file/d/1HOrRQ6LR_PXrfMDefxVPD6dXqD6a8z7_/view?usp=sharing)
+   
+
 
 
 
