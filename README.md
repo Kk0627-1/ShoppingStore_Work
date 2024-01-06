@@ -92,7 +92,7 @@
         * shopping-store資料夾: 放置前端商城的大部分html
           * web.ejs: 商城首頁的html
 
-index.ejs: 商城搜尋後顯示商品頁面的html
+          * index.ejs: 商城搜尋後顯示商品頁面的html
 
 show.ejs: 點及商品後,顯示商品頁面的html,能進行商品購買、收藏
 
