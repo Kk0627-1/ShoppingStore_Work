@@ -97,6 +97,7 @@
             ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/0a8040c0-10c8-4ecd-9020-0796c1d91d92)
 
           * show.ejs: 點及商品後,顯示商品頁面的html,能進行商品購買、收藏
+            ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/af345769-522d-4bb4-87a3-a5a98cb8102b)
 
           * shopcar.ejs: 負責顯示購物車頁面之html,並可進行確認購買或移除購物車
 
