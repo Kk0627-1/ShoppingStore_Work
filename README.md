@@ -115,9 +115,9 @@
 
 
       * layout資料夾: 放置負責進行整體布置的html
-        * boilerplate.ejs: 
-        * boilerplate2.ejs: 
-        * boilerplate3.ejs: 
+        * boilerplate.ejs 
+        * boilerplate2.ejs 
+        * boilerplate3.ejs 
 
   1. 資料庫名稱: `practice-shopping-store`  
      `mongoose.connect('mongodb://127.0.0.1:27017/practice-shopping-store');`  
