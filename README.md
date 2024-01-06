@@ -91,6 +91,7 @@
       &ensp;&ensp;&ensp;&ensp;(以下為views資料夾內的檔案)
         * shopping-store資料夾: 放置前端商城的大部分html
           * web.ejs: 商城首頁的html
+            ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/aa0761f0-3552-4752-90ae-4a8bbdd1bf91)
 
           * index.ejs: 商城搜尋後顯示商品頁面的html
 
