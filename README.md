@@ -139,8 +139,7 @@
 
      
    ### 影片說明  
-   ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/16bce3f8-3334-4454-b195-0f2d3b41c19e)
-   (https://drive.google.com/file/d/1HOrRQ6LR_PXrfMDefxVPD6dXqD6a8z7_/view?usp=sharing)
+   [![shopping-store介紹影片](https://i.ytimg.com/vi/_IlLVE2EXyE/maxresdefault.jpg)](https://youtu.be/_IlLVE2EXyE "shopping-store介紹影片")
    
 
 
