@@ -110,7 +110,9 @@
             ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/4912c8d5-1f66-4491-95e9-b92cee03896b)
 
   
-          * lovelist.ejs: 顯示我的最愛頁面之html,GO能進入商品資訊,DELETE能從我的最愛刪除
+          * lovelist.ejs: 顯示我的最愛頁面之html,GO能進入商品資訊,DELETE能從我的最愛刪除  
+            ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/333e5cd5-398a-40de-ba44-81830c98090e)
+
 
       * layout資料夾: 放置負責進行整體布置的html
         * boilerplate.ejs: 
