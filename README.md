@@ -125,9 +125,9 @@
    2. 前置設定:  
      &ensp;&ensp;需先執行seeds資料夾之檔案,將預設商品、商店及後台資料進行預設  
      &ensp;&ensp;以下為seeds資料夾檔案執行順序  
-     1. index.js: 進行後台設置  
-     2. seed.js: 將預設商品數據導入資料庫  
-     3. store.js: 將資料庫商品輸入預設商店   
+     &ensp;&ensp;1. index.js: 進行後台設置  
+     &ensp;&ensp;2. seed.js: 將預設商品數據導入資料庫  
+     &ensp;&ensp;3. store.js: 將資料庫商品輸入預設商店   
    3. 
      
 
