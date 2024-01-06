@@ -139,7 +139,8 @@
 
      
    ### 影片說明  
-   [![shopping-store介紹影片](https://i.ytimg.com/vi/_IlLVE2EXyE/maxresdefault.jpg)](https://youtu.be/_IlLVE2EXyE "shopping-store介紹影片")
+   (點擊下方圖片,觀看進入toutube網頁介紹)  
+   [![shopping-store介紹影片](https://i.ytimg.com/vi/_IlLVE2EXyE/maxresdefault.jpg)](https://youtu.be/_IlLVE2EXyE "shopping-store介紹影片")  
    
 
 
