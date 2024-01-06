@@ -78,13 +78,14 @@
   
         * shopping-store.js:  
         &ensp;&ensp;&ensp;&ensp;網址前置為此的,進入此線路  
-        &ensp;&ensp;&ensp;&ensp;'/shoppingstore'  
+        &ensp;&ensp;&ensp;&ensp;`'/shoppingstore'`  
         &ensp;&ensp;&ensp;&ensp;負責進行前端的商城主要功能,商城首頁、搜尋功能、我的最愛、購物車、商品購買  
         &ensp;&ensp;&ensp;&ensp;、購買紀錄都是在這個線路達成  
-users.js:
-網址前置為此的,進入此線路
-'/'
-負責進行使用者(買家)登入、註冊、登出之功能,為使用者功能之路線
+
+        *users.js:
+        &ensp;&ensp;&ensp;&ensp;網址前置為此的,進入此線路
+        &ensp;&ensp;&ensp;&ensp;`'/'`
+        &ensp;&ensp;&ensp;&ensp;負責進行使用者(買家)登入、註冊、登出之功能,為使用者功能之路線
 views: 放置動態html(ejs檔案),此專案所使用的html皆在這檔案
 (以下為views資料夾內的檔案)
 shopping-store資料夾: 放置前端商城的大部分html
