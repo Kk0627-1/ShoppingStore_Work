@@ -1,6 +1,6 @@
-# Shopping-Store網頁構建
+# 作品:購物網站
 
-## 此程式主要為javascript構建之作品,使用此專案能夠建一個屬於你的拍賣網站
+## 以javascript、css、html構建Shopping-Store網頁
 
 ###  環境   
 1. 執行環境 : GitBash   
