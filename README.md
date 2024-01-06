@@ -106,9 +106,9 @@
           * lovelist.ejs: 顯示我的最愛頁面之html,GO能進入商品資訊,DELETE能從我的最愛刪除
 
       * layout資料夾: 放置負責進行整體布置的html
-boilerplate.ejs: 
-boilerplate2.ejs: 
-boilerplate3.ejs: 
+        * boilerplate.ejs: 
+        * boilerplate2.ejs: 
+        * boilerplate3.ejs: 
 
   1. 資料庫名稱: `practice-shopping-store`  
      `mongoose.connect('mongodb://127.0.0.1:27017/practice-shopping-store');`  
