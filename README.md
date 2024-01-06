@@ -100,6 +100,7 @@
             ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/af345769-522d-4bb4-87a3-a5a98cb8102b)
 
           * shopcar.ejs: 負責顯示購物車頁面之html,並可進行確認購買或移除購物車
+            ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/cd6f4ece-bd9b-4c1e-ae05-f0c4bfe9b408)
 
           * purchaseRecordlist.ejs: 負責查看購物紀錄頁面之html,能檢查商品狀況
             &ensp;&ensp;&ensp;&ensp;狀況: 未出貨  
