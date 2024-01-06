@@ -99,10 +99,10 @@
           * shopcar.ejs: 負責顯示購物車頁面之html,並可進行確認購買或移除購物車
 
           * purchaseRecordlist.ejs: 負責查看購物紀錄頁面之html,能檢查商品狀況
-狀況: 未出貨
-
-狀況: 已出貨
-
+            &ensp;&ensp;&ensp;&ensp;狀況: 未出貨  
+  
+            &ensp;&ensp;&ensp;&ensp;狀況: 已出貨  
+  
           * lovelist.ejs: 顯示我的最愛頁面之html,GO能進入商品資訊,DELETE能從我的最愛刪除
 
       * layout資料夾: 放置負責進行整體布置的html
