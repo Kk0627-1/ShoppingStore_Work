@@ -120,7 +120,9 @@
         * boilerplate3.ejs
 
    ### 四、流程  
-   
+     1. 預先安裝:  
+     &ensp;&ensp;&ensp;&ensp;需先下載GitBash、Node.js、MongoDB及使用之NPM模組  
+     
 
 
 
