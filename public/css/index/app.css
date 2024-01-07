@@ -1,0 +1,13 @@
+#body-container {
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+.index-img {
+    padding: 20px 20px;
+    width: 250px;
+    height: 250px;
+}
