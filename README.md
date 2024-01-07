@@ -143,7 +143,7 @@
    4. 執行app.js檔案:  
      &ensp;&ensp;執行app.js檔案，開始啟動商店網站,以瀏覽器`localhost:2500/shoppingstore/web`  
      &ensp;&ensp;打開網站，進行網站操作  
-   5. 後台
+   5. 後台  
      &ensp;&ensp;以瀏覽器`localhost:2500/shoppingstore/controller`打開網站後台，負責查看目前  
      &ensp;&ensp;訂單，以及進行出貨設定  
    6. 流程圖  
