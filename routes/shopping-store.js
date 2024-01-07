@@ -40,9 +40,49 @@ const ReturnDeleteshopcarNum = (perchaseRecord, buyer) => {
 
 }
 
+const SortHotCommodityclick_num = (hotCommoditylist) => {
+    hotCommoditylist.sort(function (x, y) {
+        let click_num1 = x.click_num;
+        let click_num2 = y.click_num;
+        if (click_num1 > click_num2) return -1;
+        if (click_num1 < click_num2) return 1;
+        else return 0;
+    });
+    return hotCommoditylist;
+}
+
+const SortHotCommodityperchase_num = (hotCommoditylist) => {
+    hotCommoditylist.sort(function (x, y) {
+        let perchase_num1 = x.perchase_num;
+        let perchase_num2 = y.perchase_num;
+        if (perchase_num1 > perchase_num2) return -1;
+        if (perchase_num1 < perchase_num2) return 1;
+        else return 0;
+    });
+    return hotCommoditylist;
+}
+
+
+const SortHotCommodityLove_num = (hotCommoditylist) => {
+    hotCommoditylist.sort(function (x, y) {
+        let Love_num1 = x.Love_num;
+        let Love_num2 = y.Love_num;
+        if (Love_num1 > Love_num2) return -1;
+        if (Love_num1 < Love_num2) return 1;
+        else return 0;
+    });
+    return hotCommoditylist;
+}
+
 
 router.get('/web', async (req, res) => {
-    res.render('shopping-store/web');
+    let hotCommoditylist = await HotCommodity.find({}).populate('commodity');
+    const hotCommoditylistclick_num = SortHotCommodityclick_num(hotCommoditylist).splice(0, 8);
+    let hotCommoditylist2 = await HotCommodity.find({}).populate('commodity');
+    const hotCommoditylistperchase_num = SortHotCommodityperchase_num(hotCommoditylist2).splice(0, 8);
+    let hotCommoditylist3 = await HotCommodity.find({}).populate('commodity');
+    const hotCommoditylistLove_num = SortHotCommodityLove_num(hotCommoditylist3).splice(0, 8);
+    res.render('shopping-store/web', { hotCommoditylistclick_num, hotCommoditylistperchase_num, hotCommoditylistLove_num });
 })
 
 router.get('/new', async (req, res) => {
@@ -80,6 +120,16 @@ router.get('/food', async (req, res) => {
 
 router.get('/card', async (req, res) => {
     const commoditys = await Commodity.find({ type: 'card' });
+    res.render('shopping-store/index', { commoditys });
+})
+
+router.get('/3c_product', async (req, res) => {
+    const commoditys = await Commodity.find({ type: '3c_product' });
+    res.render('shopping-store/index', { commoditys });
+})
+
+router.get('/book', async (req, res) => {
+    const commoditys = await Commodity.find({ type: 'book' });
     res.render('shopping-store/index', { commoditys });
 })
 
@@ -153,6 +203,7 @@ router.post('/search', async (req, res) => {
 })
 
 router.post('/:id/addToLovelist', isLoggedIn, async (req, res) => {
+    req.flash('success', '成功加入最愛!');
     const { _id: _id } = res.locals.currentUser;
     const user = await User.findById(_id).populate('Authorbuyer');
     const { id } = req.params;
