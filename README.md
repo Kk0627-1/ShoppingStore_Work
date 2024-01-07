@@ -40,11 +40,14 @@
      ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/cc4a7a87-c9e1-471f-8834-f637fae5d36a)  
 
   4. Html (網站)  
-     &ensp;&ensp;3.1. Ejs  
-  5. Bootstrap  
+     &ensp;&ensp;3.1. Ejs:以ejs檔案架構動態html網站    
+     &ensp;&ensp;3.2. 在app.js中令express的以ejs架構網站  
+     &ensp;&ensp;&ensp;&ensp;`app.engine('ejs', ejsMate);`  
+     &ensp;&ensp;&ensp;&ensp;`app.set('view engine', 'ejs');`
+  6. Bootstrap  
      &ensp;&ensp;4.1. version  
      &ensp;&ensp;4.2. css  
-  6. Node.js  
+  7. Node.js  
      &ensp;&ensp;5.1  伺服器  
   ### 三、專案說明  
    1. 專案:  
