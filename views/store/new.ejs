@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
+<% layout('layout/boilerplate3')%>
     <h1>Post New Commodity</h1>
     <form action="/shoppingstore/store/<%=store._id%>/addCommodity" method="POST">
         <h2>
@@ -35,9 +26,3 @@
         </div>
         <button>New</button>
     </form>
-
-
-
-</body>
-
-</html>
