@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
+<% layout('layout/boilerplate3')%>
     <h1>Store</h1>
     <h2>
         <%=store.storename%>
@@ -15,6 +6,3 @@
     <% for ( let commodity of store.commodity ) { %>
         <img  alt="" src="<%=commodity.image%>">
     <% } %>
-</body>
-
-</html>
