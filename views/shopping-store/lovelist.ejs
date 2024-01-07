@@ -1,33 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
+<% layout('layout/boilerplate')%>
     <h1>Love</h1>
-    <a href="/shoppingstore/web">home</a>
-    <% for (let love of lovelist){%>
-        <div>
-            <h3>購買產品  <%= love.title %></h3>
-            <img src="<%=love.image%>" alt="">
-            <h4>價格: <%= love.title %></h4>
-            <h4>類型: <%= love.type %></h4>
-            <p><%= love.description %></p>
-        </div>
-        <div>
-            <form action="/shoppingstore/<%=love._id%>">
-                <button>Go!</button>
-            </form>
-            <form action="/shoppingstore/<%=love._id%>/DeleteLove" method="POST">
-                <button>Delete</button>
-            </form>
-        </div>
-        
-    <% } %>
-</body>
-
-</html>
+    <div class="container">
+        <% for (let love of lovelist){%>
+            <div class="card" style="max-width: 650px;" id="lovecard">
+                <div class="card-body">
+                    <h3>購買產品  <%= love.title %></h3>
+                    <img src="<%=love.image%>" alt="">
+                    <h4>價格: <%= love.title %></h4>
+                    <h4>類型: <%= love.type %></h4>
+                    <p><%= love.description %></p>
+                </div>
+                <form action="/shoppingstore/<%=love._id%>">
+                    <button class="btn btn-primary">Go!</button>
+                </form>
+                <form action="/shoppingstore/<%=love._id%>/DeleteLove" method="POST">
+                    <button class="btn btn-danger">Delete</button>
+                </form>
+            </div>     
+        <% } %>
+    </div>
+    
