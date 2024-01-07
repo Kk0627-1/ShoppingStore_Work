@@ -12,7 +12,6 @@ db.once("open", () => {
 });
 
 
-
 const seedDB = async () => {
     const controllerSystem = new ControllerManagementSystem({});
     const commoditys = await Commodity.find({});
