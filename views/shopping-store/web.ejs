@@ -1,54 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/app.css">
-</head>
-
-<body>
-    <div id="header-container">
-        <div id="h1-div">
-            <h1>Shopping ~~ Mall ~~</h1>
-        </div>
-        <div id="search-div">
-            <form action="/shoppingstore/search" method="POST">
-                <label  for="searchData">search</label>
-                <input type="text" id="searchData" name="searchData" placeholder="find!">
-                <button>search</button>
-            </form>
-        </div>
-        <div>
-            <a href="/shoppingstore/shopcar">購物車</a>
-            <a href="/shoppingstore/lovelist">收藏</a>
-            <a href="/shoppingstore/purchaseRecordlist">購買紀錄</a>
-            <a href="/shoppingstore/store">賣家功能</a>
-        </div>
-
-        <div>
-            <% if (!currentUser) { %>
-            <a href="/login">log in</a>
-            <a href="/register">register</a>
-            <% } else { %>
-            <a href="/logout">log out</a>
-            <% } %>
-        </div>
-    </div>
-
+<% layout('layout/boilerplate')%>
     <div id="body-container">
         <div id="body-div1">
-            <div id="category-container">
-                <div id="category-board">
-                    <h2>類別</h2>
-                </div>
-                <div id="category-item1-container">
+            <div id="category-container" class="container">
+                <div id="category-board"><b>類別</b></div>
+                <div id="category-item1-container" class="container">
                     <div id="cloth-item-div" class="img-a-div">
                         <div>
-                            <img  alt="" src="/image/cloth.jpg">
+                            <div>
+                                <img  alt="" src="/image/cloth.jpg">
+                            </div>
+                            <a href="/shoppingstore/cloth">clothing</a>
                         </div>
-                        <a href="/shoppingstore/cloth">clothing</a>
                     </div>
                     <div id="shoes-item-div" class="img-a-div">
                         <div>
@@ -62,59 +24,116 @@
                         </div>
                         <a href="/shoppingstore/cap">cap</a>
                     </div>
-
+                    <div id="3c-item-div" class="img-a-div">
+                        <div>
+                            <img src="/image/3c_product.jpg" alt="">
+                        </div>
+                        <a href="/shoppingstore/3c_product">3c product</a>
+                    </div>
                 </div>
-                <div id="category-item2-container">
+                <div id="category-item2-container" class="container">
                     <div class="img-a-div">
                         <div>
                             <img src="/image/food.jpg" alt="">
                         </div>
-                        <a href="">food</a>
+                        <a href="/shoppingstore/food">food</a>
                     </div>
                     <div class="img-a-div">
                         <div>
                             <img src="/image/card.jpg" alt="">
                         </div>
-                        <a href="">card</a>
+                        <a href="/shoppingstore/card">card</a>
                     </div>
                     <div class="img-a-div">
                         <div>
                             <img src="/image/toy.jpg" alt="">
                         </div>
-                        <a href="">toy</a>
+                        <a href="/shoppingstore/toy">toy</a>
                     </div>
-
+                    <div class="img-a-div">
+                        <div>
+                            <img src="/image/book.jpg" alt="">
+                        </div>
+                        <a href="/shoppingstore/book">book</a>
+                    </div>
                 </div>
-
             </div>
 
-            <div id="hot-container">
-                <h2 id="hot-board">Hot</h2>
+
+            <div id="hot-container" class="container">
+                <div id="hot-board">
+                    <p><b>Hot</b></p>
+                </div>
                 <div id="ul-div">
                     <ul>
                         <li>
-                            <a href="">最流行</a>
+                            <a href="">最多人購買</a>
+                            <div id="body-container" class="container mb-5">
+                                <% for (let hotCommodity of hotCommoditylistperchase_num){%>
+                                <% if ( hotCommodity.perchase_num != 0 ) { %>
+                                <div class="card" id="commodity-container">
+                                    <div class="row">
+                                        <div class="col-mb-4">
+                                            <img  class="index-img" alt="" src="<%=hotCommodity.commodity.image%>">
+                                            <div>
+                                                <h5><%= hotCommodity.commodity.title %></h5>
+                                                <p><%= hotCommodity.commodity.description %></p>
+                                                <p>已有<%= hotCommodity.perchase_num %>人購買</p>
+                                                <a href="/shoppingstore/<%=hotCommodity.commodity._id%>">Go!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <% } %>
+                                <% } %>
+                            </div>
                         </li>
                         <li>
                             <a href="">最多人點擊</a>
+                            <div id="body-container" class="container mb-5">
+                                <% for (let hotCommodity of hotCommoditylistclick_num){%>
+                                <% if ( hotCommodity.click_num != 0 ) { %>
+                                <div class="card" id="commodity-container">
+                                    <div class="row">
+                                        <div class="col-mb-4">
+                                            <img  class="index-img" alt="" src="<%=hotCommodity.commodity.image%>">
+                                            <div>
+                                                <h5><%= hotCommodity.commodity.title %></h5>
+                                                <p><%= hotCommodity.commodity.description %></p>
+                                                <p>已有<%= hotCommodity.click_num %>人觀看</p>
+                                                <a href="/shoppingstore/<%=hotCommodity.commodity._id%>">Go!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <% } %>
+                                <% } %>
+                            </div>
                         </li>
                         <li>
-                            <a href="">最優惠</a>
-                        </li>
-                        <li>
-                            <a href="">限時打折</a>
+                            <a href="">最多人收藏</a>
+                            <div id="body-container" class="container mb-5">
+                                <% for (let hotCommodity of hotCommoditylistLove_num){%>
+                                <% if ( hotCommodity.Love_num != 0 ) { %>
+                                <div class="card" id="commodity-container">
+                                    <div class="row">
+                                        <div class="col-mb-4">
+                                            <img  class="index-img" alt="" src="<%=hotCommodity.commodity.image%>">
+                                            <div>
+                                                <h5><%= hotCommodity.commodity.title %></h5>
+                                                <p><%= hotCommodity.commodity.description %></p>
+                                                <p>已有<%= hotCommodity.Love_num %>人收藏</p>
+                                                <a href="/shoppingstore/<%=hotCommodity.commodity._id%>">Go!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <% } %>
+                                <% } %>
+                            </div>
                         </li>
                     </ul>
                 </div>
-
-
             </div>
         </div>
-
     </div>
-
-
-
-</body>
-
-</html>
