@@ -3,13 +3,13 @@ const router = express.Router();
 const Commodity = require('../models/commodity');
 const User = require('../models/User')
 const PerchaseRecord = require('../models/PerchaseRecord');
-const { isLoggedIn } = require('../middleware');
+const { isLoggedInStore } = require('../middleware');
 const Buyer = require('../models/Buyer');
 const Store = require('../models/Store');
 const passport = require('passport');
 const { any } = require('joi');
 
-router.get('/', async (req, res) => {
+router.get('/', isLoggedInStore, async (req, res) => {
     res.render('store/index');
 })
 
