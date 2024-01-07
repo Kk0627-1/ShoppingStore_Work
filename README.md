@@ -45,7 +45,7 @@
      &ensp;&ensp;&ensp;&ensp;`app.engine('ejs', ejsMate);`  
      &ensp;&ensp;&ensp;&ensp;`app.set('view engine', 'ejs');`
   6. Bootstrap  
-     &ensp;&ensp;4.1. version  
+     &ensp;&ensp;4.1. version: 5.3.2    
      &ensp;&ensp;4.2. css  
   7. Node.js  
      &ensp;&ensp;5.1  伺服器  
