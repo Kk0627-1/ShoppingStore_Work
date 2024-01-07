@@ -1,35 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
+<% layout('layout/boilerplate')%>
     <h1>purchase Record</h1>
-    <a href="/shoppingstore/web">home</a>
+    <div class="container">
     <% for (let perchaseRecord of perchaseRecords){%>
-        <div>
-            <h3>購買產品  <%= perchaseRecord.commoditys.title %></h3>
-            <img src="<%=perchaseRecord.commoditys.image%>" alt="">
-            <h4>價格: <%= perchaseRecord.commoditys.title %></h4>
-            <h4>類型: <%= perchaseRecord.commoditys.type %></h4>
-            <p><%= perchaseRecord.commoditys.description %></p>
-            <p>訂單數: <%= perchaseRecord.number %>, 型號: <%= perchaseRecord.size %></p>
-            <p>狀態:<%= perchaseRecord.status %></p>
+        <div class="card" style="max-width: 650px;" id="purchasecard">
+            <div class="card-body">
+                <h3>購買產品  <%= perchaseRecord.commoditys.title %></h3>
+                <img src="<%=perchaseRecord.commoditys.image%>" alt="">
+                <h4>價格: <%= perchaseRecord.commoditys.title %></h4>
+                <h4>類型: <%= perchaseRecord.commoditys.type %></h4>
+                <p><%= perchaseRecord.commoditys.description %></p>
+                <p>訂單數: <%= perchaseRecord.number %>, 型號: <%= perchaseRecord.size %></p>
+                <p>狀態:<%= perchaseRecord.status %></p>
+            </div>
             <% if ( perchaseRecord.status === '已出貨') { %>
-            <form action="/shoppingstore/controller/<%=perchaseRecord._id%>/HandelTheDeal" method="POST">
-                <input type="radio" id="gotItem" name="select" value="確認收到">
-                <label for="gotItem">確認收到貨物</label>
-                <input type="radio" id="ungotItem" name="select" value="未收到">
-                <label for="ungotItem">未收到貨物</label>
-                <button>確認</button>
-            </form>
+                <form action="/shoppingstore/controller/<%=perchaseRecord._id%>/HandelTheDeal" method="POST">
+                    <input type="radio" id="gotItem" name="select" value="確認收到">
+                    <label for="gotItem">確認收到貨物</label>
+                    <input type="radio" id="ungotItem" name="select" value="未收到">
+                    <label for="ungotItem">未收到貨物</label>
+                    <button class="btn btn-primary">確認</button>
+                </form>
             <% } %>
         </div>
     <% } %>
-</body>
-
-</html>
+    </div>
+    
