@@ -36,12 +36,15 @@
      &ensp;&ensp;1.4.  Passport: 完成登入之功能之npm
   2. DB  (資料庫)  
      &ensp;&ensp;2.1. MongoDB  
-  3. Html (網站)  
+     &ensp;&ensp;在GitBash中使用`mongosh`檢視DataBase資料  
+     ![image](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/cc4a7a87-c9e1-471f-8834-f637fae5d36a)  
+
+  4. Html (網站)  
      &ensp;&ensp;3.1. Ejs  
-  4. Bootstrap  
+  5. Bootstrap  
      &ensp;&ensp;4.1. version  
      &ensp;&ensp;4.2. css  
-  5. Node.js  
+  6. Node.js  
      &ensp;&ensp;5.1  伺服器  
   ### 三、專案說明  
    1. 專案:  
