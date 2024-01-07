@@ -211,6 +211,96 @@ const seedDB = async () => {
     })
     await greetingcard.save();
 
+    const computer = new Commodity({
+        title: 'computer',
+        image: '/image/computer.jpg',
+        price: 1500,
+        description: 'A good computer',
+        type: '3c_product'
+    })
+    await computer.save();
+
+    const earphone = new Commodity({
+        title: 'earphone',
+        image: '/image/earphone.jpg',
+        price: 300,
+        description: 'A good earphone',
+        type: '3c_product'
+    })
+    await earphone.save();
+
+    const mouse = new Commodity({
+        title: 'mouse',
+        image: '/image/mouse.jpg',
+        price: 120,
+        description: 'A good mouse',
+        type: '3c_product'
+    })
+    await mouse.save();
+
+    const comic = new Commodity({
+        title: 'comic',
+        image: '/image/comic.jpg',
+        price: 70,
+        description: 'A good comic',
+        type: 'book'
+    })
+    await comic.save();
+
+    const novel = new Commodity({
+        title: 'novel',
+        image: '/image/novel.jpg',
+        price: 85,
+        description: 'A good novel',
+        type: 'book'
+    })
+    await novel.save();
+
+    const AIE_T = new Commodity({
+        title: 'AIE-Tshirt',
+        image: '/image/AIE-T.jpg',
+        price: 15,
+        description: 'A good AIE-Tshirt',
+        type: 'cloth'
+    })
+    await AIE_T.save();
+
+    const NewYear_T = new Commodity({
+        title: '新年吉祥Tshirt',
+        image: '/image/新年吉祥-T.jpg',
+        price: 15,
+        description: 'A good 新年吉祥Tshirt',
+        type: 'cloth'
+    })
+    await NewYear_T.save();
+
+    const Original_T = new Commodity({
+        title: 'Original-Tshirt',
+        image: '/image/Original-T.jpg',
+        price: 15,
+        description: 'A good Original-Tshirt',
+        type: 'cloth'
+    })
+    await Original_T.save();
+
+    const MEN_T = new Commodity({
+        title: 'MEN-Tshirt',
+        image: '/image/MEN-T.jpg',
+        price: 15,
+        description: 'A good MEN-Tshirt',
+        type: 'cloth'
+    })
+    await MEN_T.save();
+
+    const BALENCIAGA_T = new Commodity({
+        title: 'BALENCIAGA-Tshirt',
+        image: '/image/BALENCIAGA-T.jpg',
+        price: 15,
+        description: 'A good BALENCIAGA-Tshirt',
+        type: 'cloth'
+    })
+    await BALENCIAGA_T.save();
+
 }
 
 seedDB().then(() => {
