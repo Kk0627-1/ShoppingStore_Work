@@ -47,8 +47,8 @@
   6. Bootstrap  
      &ensp;&ensp;4.1. version: 5.3.2    
      &ensp;&ensp;4.2. css  
-  7. Node.js  
-     &ensp;&ensp;5.1  伺服器  
+  7. 伺服器    
+     &ensp;&ensp;5.1  以Node.js執行app.js維持伺服器    
   ### 三、專案說明  
    1. 專案:  
       &ensp;&ensp;&ensp;&ensp;此專案為構建購物網站之專案,能完成一般購物網站  
