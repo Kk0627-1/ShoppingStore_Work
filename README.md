@@ -148,8 +148,10 @@
    5. 後台  
      &ensp;&ensp;以瀏覽器`localhost:2500/shoppingstore/controller`打開網站後台，負責查看目前  
      &ensp;&ensp;訂單，以及進行出貨設定  
-   6. 流程圖  
-      ![流程圖](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/ec8afc37-9f77-4cb8-a8cb-b1e3f8f1a0eb)
+   6. 流程圖
+      ![前置step1 (1)](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/5d0c0968-b6a7-4a21-a82d-e4f4da889939)  
+
+      ![流程圖](https://github.com/Kk0627-1/ShoppingStore_Work/assets/55129180/ec8afc37-9f77-4cb8-a8cb-b1e3f8f1a0eb)  
 
      
    ### 五、影片說明  
