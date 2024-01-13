@@ -64,6 +64,7 @@
                      &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;後台資料之變數)    
            &ensp;&ensp;&ensp;&ensp;seed.js: 將預設好的商品存入資料庫,使資料庫存在商品資料    
            &ensp;&ensp;&ensp;&ensp;store.js: 將商品定為預設商店之商品  
+           &ensp;&ensp;&ensp;&ensp;addhotlist.js: 在後台加上並初始化網頁資訊(點擊數、觀看數等)    
         
       * app.js : 啟動網站之檔案,執行app.js網頁即位在localhost:2500打開,  
               可用瀏覽器執行,會根據網址執行Route資料夾裡的不同檔案  
