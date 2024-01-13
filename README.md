@@ -140,7 +140,8 @@
      &ensp;&ensp;以下為seeds資料夾檔案執行順序<br>     
      &ensp;&ensp;1. index.js: 進行後台設置     
      &ensp;&ensp;2. seed.js: 將預設商品數據導入資料庫    
-     &ensp;&ensp;3. store.js: 將資料庫商品輸入預設商店   
+     &ensp;&ensp;3. store.js: 將資料庫商品輸入預設商店  
+     &ensp;&ensp;4. addhotlist.js: 在後台加上並初始化網頁資訊(點擊數、觀看數等)    
    4. 執行app.js檔案:  
      &ensp;&ensp;執行app.js檔案，開始啟動商店網站,以瀏覽器`localhost:2500/shoppingstore/web`  
      &ensp;&ensp;打開網站，進行網站操作  
