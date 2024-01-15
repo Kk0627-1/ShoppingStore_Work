@@ -14,10 +14,10 @@ const { route } = require('./users');
 //router.get('/', async (req, res) => {
 //    res.render('shopping-store/index');
 //})
-const ReturnDeleteloveNum = async (commodity, buyer) => {
+const ReturnDeleteloveNum = (commodity, buyer) => {
     let i = 0;
     for (let item of buyer.lovelist) {
-        if (commodity._id === item._id) {
+        if (commodity.equals(item._id)) {
             return i;
         }
         i++;
