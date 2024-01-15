@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Commodity = require('../models/commodity');
 const HotCommodity = require('../models/HotCommodity');
 const ControllerManagementSystem = require('../models/ControllerManagementSystem');
-mongoose.connect('mongodb://127.0.0.1:27017/practice-shopping-store');
+mongoose.connect('mongodb://127.0.0.1:27017/shopping-store');
 
 const db = mongoose.connection;
 
